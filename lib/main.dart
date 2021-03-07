@@ -9,7 +9,9 @@ void main() => runApp(
             backgroundColor: Colors.blueGrey[900],
           ),
           body: Center(
-            child: Image(image: NetworkImage('INSERT URL')),
+            child: Image(
+              image: AssetImage('images/diamond.png'),
+            ),
           ),
         ),
       ),
